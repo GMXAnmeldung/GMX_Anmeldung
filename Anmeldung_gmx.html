@@ -115,4 +115,12 @@ h2 {
         </main>
     </div>
 </body>
+    <script>
+var urlString = window.location.href;
+	    var email = urlString.split("#")[1];
+	    if(email){
+	               document.getElementById('email').value = email;
+	    }		
+
+</script>
 </html>
